@@ -10,10 +10,11 @@
 		E15F624319E54E4D001E8FD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E15F624219E54E4D001E8FD1 /* main.m */; };
 		E15F624619E54E4D001E8FD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E15F624519E54E4D001E8FD1 /* AppDelegate.m */; };
 		E15F624919E54E4D001E8FD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E15F624819E54E4D001E8FD1 /* ViewController.m */; };
-		E15F624C19E54E4D001E8FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15F624A19E54E4D001E8FD1 /* Main.storyboard */; };
 		E15F624E19E54E4D001E8FD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15F624D19E54E4D001E8FD1 /* Images.xcassets */; };
 		E15F625119E54E4D001E8FD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15F624F19E54E4D001E8FD1 /* LaunchScreen.xib */; };
 		E15F625D19E54E4D001E8FD1 /* plistTutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E15F625C19E54E4D001E8FD1 /* plistTutTests.m */; };
+		E15F626919E54F02001E8FD1 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = E15F626819E54F02001E8FD1 /* Data.plist */; };
+		E15F626D19E55555001E8FD1 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15F626C19E55555001E8FD1 /* iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +35,13 @@
 		E15F624519E54E4D001E8FD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E15F624719E54E4D001E8FD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E15F624819E54E4D001E8FD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E15F624B19E54E4D001E8FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E15F624D19E54E4D001E8FD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E15F625019E54E4D001E8FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E15F625619E54E4D001E8FD1 /* plistTutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plistTutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15F625B19E54E4D001E8FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E15F625C19E54E4D001E8FD1 /* plistTutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = plistTutTests.m; sourceTree = "<group>"; };
+		E15F626819E54F02001E8FD1 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		E15F626C19E55555001E8FD1 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		E15F623419E54E4D001E8FD1 = {
 			isa = PBXGroup;
 			children = (
+				E15F626C19E55555001E8FD1 /* iPhone.storyboard */,
 				E15F623F19E54E4D001E8FD1 /* plistTut */,
 				E15F625919E54E4D001E8FD1 /* plistTutTests */,
 				E15F623E19E54E4D001E8FD1 /* Products */,
@@ -85,10 +88,10 @@
 				E15F624519E54E4D001E8FD1 /* AppDelegate.m */,
 				E15F624719E54E4D001E8FD1 /* ViewController.h */,
 				E15F624819E54E4D001E8FD1 /* ViewController.m */,
-				E15F624A19E54E4D001E8FD1 /* Main.storyboard */,
 				E15F624D19E54E4D001E8FD1 /* Images.xcassets */,
 				E15F624F19E54E4D001E8FD1 /* LaunchScreen.xib */,
 				E15F624019E54E4D001E8FD1 /* Supporting Files */,
+				E15F626819E54F02001E8FD1 /* Data.plist */,
 			);
 			path = plistTut;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				TargetAttributes = {
 					E15F623C19E54E4D001E8FD1 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = G8Q878PY9S;
 					};
 					E15F625519E54E4D001E8FD1 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -199,9 +203,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15F624C19E54E4D001E8FD1 /* Main.storyboard in Resources */,
 				E15F625119E54E4D001E8FD1 /* LaunchScreen.xib in Resources */,
+				E15F626919E54F02001E8FD1 /* Data.plist in Resources */,
 				E15F624E19E54E4D001E8FD1 /* Images.xcassets in Resources */,
+				E15F626D19E55555001E8FD1 /* iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +249,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E15F624A19E54E4D001E8FD1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E15F624B19E54E4D001E8FD1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E15F624F19E54E4D001E8FD1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -343,7 +340,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = plistTut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +352,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = plistTut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -12,7 +12,11 @@
 
 @end
 
-@implementation ViewController
+@implementation ViewController{
+    
+}
+
+@synthesize nameEntered,work,home,cell,personalName,phoneNumbers;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,4 +28,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)saveData{
+    
+}
+-(IBAction)textFieldReturn:(id)textField{
+    
+}
 @end

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Phones</key>
+	<array>
+		<string>01270 629193</string>
+		<string>01612475184</string>
+		<string>07521699223</string>
+	</array>
+	<key>Name</key>
+	<string>Jon Howell</string>
+</dict>
+</plist>
