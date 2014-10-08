@@ -41,7 +41,7 @@
 		E15F625B19E54E4D001E8FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E15F625C19E54E4D001E8FD1 /* plistTutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = plistTutTests.m; sourceTree = "<group>"; };
 		E15F626819E54F02001E8FD1 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
-		E15F626C19E55555001E8FD1 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		E15F626C19E55555001E8FD1 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPhone.storyboard; path = ../iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,6 @@
 		E15F623419E54E4D001E8FD1 = {
 			isa = PBXGroup;
 			children = (
-				E15F626C19E55555001E8FD1 /* iPhone.storyboard */,
 				E15F623F19E54E4D001E8FD1 /* plistTut */,
 				E15F625919E54E4D001E8FD1 /* plistTutTests */,
 				E15F623E19E54E4D001E8FD1 /* Products */,
@@ -84,6 +83,7 @@
 		E15F623F19E54E4D001E8FD1 /* plistTut */ = {
 			isa = PBXGroup;
 			children = (
+				E15F626C19E55555001E8FD1 /* iPhone.storyboard */,
 				E15F624419E54E4D001E8FD1 /* AppDelegate.h */,
 				E15F624519E54E4D001E8FD1 /* AppDelegate.m */,
 				E15F624719E54E4D001E8FD1 /* ViewController.h */,
@@ -413,6 +413,7 @@
 				E15F626219E54E4D001E8FD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E15F626319E54E4D001E8FD1 /* Build configuration list for PBXNativeTarget "plistTutTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				E15F626519E54E4D001E8FD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
