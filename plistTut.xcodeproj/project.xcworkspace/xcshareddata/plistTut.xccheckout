@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6550AF5D-F0CF-4354-9C82-11C96A685CBF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>plistTut</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9d889314-b954-1ed9-2e3d-ce57b7db7bff++505</key>
+		<string>https://github.com/dendrogram/plistTut/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>plistTut.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9d889314-b954-1ed9-2e3d-ce57b7db7bff++505</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>9d889314-b954-1ed9-2e3d-ce57b7db7bff++505</key>
+		<string>https://github.com/dendrogram/plistTut</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dendrogram/plistTut/trunk/plistTut.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9d889314-b954-1ed9-2e3d-ce57b7db7bff++505</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9d889314-b954-1ed9-2e3d-ce57b7db7bff++505</string>
+			<key>IDESourceControlWCCName</key>
+			<string>plistTut</string>
+		</dict>
+	</array>
+</dict>
+</plist>
